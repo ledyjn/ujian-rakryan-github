@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #333 !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin-right: 1rem;
+  color: #555;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.btn-primary {
+  background-color: #ff7849;
+  border-color: #ff7849;
+}
+
+.btn-primary:hover {
+  background-color: #ff5722;
+  border-color: #ff5722;
+}
+
+/* Hero Section */
+#hero {
+  background: #f8f9fa;
+  padding: 4rem 0;
+}
+
+#hero .display-4 {
+  color: #333;
+}
+
+#hero .lead {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+/* Services Section */
+#services {
+  padding: 4rem 0;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+#services .card {
+  border: none;
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+#services .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#services .card h5 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+#services .card p {
+  color: #666;
+}
+
+/* Projects Section */
+#projects {
+  padding: 4rem 0;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+#projects .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+#projects .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects .card-title {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #333;
+}
+
+#projects .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+#projects .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.875rem;
+}

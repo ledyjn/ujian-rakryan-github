@@ -1,0 +1,23 @@
+header {
+  background-color: #f8f9fa;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+header h2 {
+  font-size: 2rem;
+  color: #555;
+}
+
+header .btn-primary {
+  background-color: #ff7849;
+  border-color: #ff7849;
+}
+
+header .btn-primary:hover {
+  background-color: #ff5722;
+  border-color: #ff5722;
+}

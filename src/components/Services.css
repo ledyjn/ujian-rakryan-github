@@ -1,0 +1,40 @@
+#services {
+  padding: 4rem 0;
+  background-color: #fff6e7;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+#services .card {
+  border: none;
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+#services .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#services .card h5 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+#services .card p {
+  color: #666;
+}
+
+.card {
+  height: 220px;
+}
+
+.card-body {
+  text-align: left;
+  margin-top: 20px;
+}
