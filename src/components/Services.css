@@ -13,6 +13,7 @@
   border: none;
   background: #fff;
   transition: transform 0.3s ease;
+  margin: 20px;
 }
 
 #services .card:hover {
