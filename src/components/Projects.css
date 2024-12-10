@@ -21,6 +21,7 @@
   justify-content: center;
   gap: 10px;
   margin-bottom: 30px;
+  flex-wrap: wrap; /* Agar tombol kategori menumpuk jika layar terlalu kecil */
 }
 
 .category-button {
@@ -42,7 +43,7 @@
   display: flex;
   gap: 20px;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Mengatur elemen agar menumpuk jika layar kecil */
 }
 
 .project-card {
@@ -51,7 +52,6 @@
   padding: 20px;
   text-align: center;
   width: 300px;
-
   text-align: left;
 }
 
@@ -84,4 +84,44 @@
 
 .project-detail-button:hover {
   background-color: #e2662a;
+}
+
+/* Media Query untuk layar yang lebih kecil */
+@media (max-width: 768px) {
+  .projects-title {
+    font-size: 1.5rem;
+  }
+
+  .projects-description {
+    font-size: 0.9rem;
+  }
+
+  .projects-grid {
+    gap: 15px;
+  }
+
+  .project-card {
+    width: 100%; /* Membuat kartu memenuhi lebar kontainer */
+  }
+}
+
+/* Media Query untuk layar yang sangat kecil */
+@media (max-width: 480px) {
+  .category-button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .projects-description {
+    font-size: 0.8rem;
+  }
+
+  .project-card {
+    padding: 15px;
+  }
+
+  .project-detail-button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
 }
