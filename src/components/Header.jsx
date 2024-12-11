@@ -13,7 +13,7 @@ const Header = () => {
         <div className="container d-flex flex-column flex-lg-row align-items-center text-center text-lg-start">
           <div className="text-section flex-grow-1 mb-4 mb-lg-0">
             <h1 className="mb-2">
-              Hi, I am <span className="text-warning">Fawzi Sayed</span>
+              Hi, I am <span className="text-warning">Sayed</span>
             </h1>
             <h2 className="fw-bold mb-3">Website Developer</h2>
             <p className="text-muted mb-4">
